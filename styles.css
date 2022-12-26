@@ -1,1 +1,75 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Book.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+@media screen and (min-width: 375px) {
+  body {
+    font-size: 16px;
+    font-family: "Neue Montreal";
+    background-color: #f3f3f3;
+    padding: 40px 20px 0;
+    font-weight: 300;
+  }
+  nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div {
+    font-size: 1.2em;
+    color: #111;
+    line-height: 1.1;
+  }
+  nav button {
+    line-height: 1.2;
+    padding: 12px 20px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: 1px solid #111;
+    font-family: inherit;
+  }
+  main {
+    margin-top: 115px;
+  }
+  main h1 {
+    font-weight: 300;
+    font-size: 2.4em;
+    letter-spacing: -0.02em;
+  }
+  main p {
+    line-height: 1.5;
+    margin-top: 30px;
+    letter-spacing: 0.06em;
+    color: #111;
+  }
+}
