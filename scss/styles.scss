@@ -1,4 +1,4 @@
-@use './extras' as e ;
+@use './extras' as e;
 
 @media screen and (min-width:375px) {
     body {
@@ -8,16 +8,28 @@
         padding: 40px 20px 0;
         font-weight: 300;
     }
-    
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 400;
+    }
+    a {
+        text-decoration: none;
+    }
+
     nav {
         align-items: center;
         display: flex;
         justify-content: space-between;
+
         div {
             font-size: 1.2em;
             color: #111;
             line-height: 1.1;
         }
+
         button {
             line-height: 1.2;
             padding: 12px 20px;
@@ -27,18 +39,74 @@
             font-family: inherit;
         }
     }
-    main {
-        margin-top: 115px;
+
+    .intro {
+        margin: 115px 0 70px;
+
         h1 {
-            font-weight: 300;
+            font-weight: 400;
             font-size: 2.4em;
             letter-spacing: -.02em;
         }
+
         p {
             line-height: 1.5;
             margin-top: 30px;
             letter-spacing: 0.06em;
             color: #111;
         }
+    }
+
+    .projects {
+        hr {
+            color: #8c8c8c;
+            border-bottom: none;
+        }
+
+        .heading-wrapper {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+
+        .bullet {
+            width: .4em;
+            height: .4em;
+            margin-right: 0.5em;
+            border-radius: 50%;
+            background-color: #111;
+        }
+
+        h3 {
+            font-size: 0.8rem;
+        }
+    }
+
+    .projects-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        margin: 40px 0 120px;
+    }
+
+    .project-card {
+        img {
+            width: 100%;
+        }
+        h4 {
+            font-size: 1.1rem;
+        }
+        p {
+            color: #4f4e4e;
+            letter-spacing: 1.3px;
+        }
+        a {
+            color: inherit;
+        }
+    }
+    .text-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0 0;
     }
 }
