@@ -25,6 +25,22 @@
         background-color: #111;
     }
 
+    button {
+        cursor: pointer;
+        font-weight: 300;
+        line-height: 1.2;
+        background-color: inherit;
+        border: 1px solid #111;
+        font-family: inherit;
+        transition: background-color,transform ease 0.3s;
+        &:hover {
+            transform: scale(0.985);
+            font-weight: 400;
+            background-color: #111;
+            color: #fff;
+        }
+    }
+
     nav {
         align-items: center;
         display: flex;
@@ -37,12 +53,8 @@
         }
 
         button {
-            line-height: 1.2;
             padding: 12px 20px;
-            background-color: inherit;
             border-radius: 20px;
-            border: 1px solid #111;
-            font-family: inherit;
         }
     }
 
@@ -118,5 +130,54 @@
         display: flex;
         justify-content: space-between;
         margin: 1rem 0 0;
+    }
+
+    .cta {
+        text-align: center;
+        padding: 20px 0 70px;
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            letter-spacing: -.02em;
+            font-weight: 300;
+            margin: 50px 0 35px;
+            line-height: 1;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 1.2rem;
+            border-radius: 100vw;
+        }
+    }
+
+    .icons-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .link-wrapper {
+        height: 3em;
+        width: 3em;
+        border: 1px solid #111;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease 0.5s;
+
+        svg {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+    .link-wrapper:hover {
+        background-color: #111;
+        transform: scale(0.99);
+
+        svg {
+            fill: #fff;
+        }
     }
 }
