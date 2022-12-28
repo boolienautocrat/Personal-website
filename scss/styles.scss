@@ -15,8 +15,14 @@
     h4 {
         font-weight: 400;
     }
+
     a {
         text-decoration: none;
+    }
+
+    ::selection {
+        color: #fff;
+        background-color: #111;
     }
 
     nav {
@@ -93,17 +99,21 @@
         img {
             width: 100%;
         }
+
         h4 {
             font-size: 1.1rem;
         }
+
         p {
             color: #4f4e4e;
             letter-spacing: 1.3px;
         }
+
         a {
             color: inherit;
         }
     }
+
     .text-wrapper {
         display: flex;
         justify-content: space-between;
