@@ -213,7 +213,11 @@
     width: 48%;
   }
   .cta {
-    padding: 50px 0 25px;
+    padding: 50px 0 0;
+  }
+  .cta h2 span {
+    font-family: monospace;
+    margin-left: 1rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -236,5 +240,6 @@
   }
   .cta h2 {
     font-size: 4rem;
+    margin: 60px 0 50px;
   }
 }
