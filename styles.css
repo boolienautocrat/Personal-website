@@ -92,6 +92,7 @@
   .intro h1 {
     font-size: 2.5em;
     letter-spacing: -0.02em;
+    font-family: monospace, "Neue Montreal";
   }
   .intro p {
     line-height: 1.5;
