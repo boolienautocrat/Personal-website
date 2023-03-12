@@ -70,6 +70,11 @@
         h1 {
             font-size: 2.5em;
             letter-spacing: -.02em;
+            span {
+                display: block;
+                font-size: 3.5rem;
+                text-decoration: underline;
+            }
         }
 
         p {
