@@ -239,11 +239,23 @@
     font-size: 1rem;
     font-weight: 400;
   }
+  .intro {
+    display: flex;
+  }
+  .intro .text {
+    width: 58%;
+  }
+  .intro img {
+    width: 42%;
+  }
   .intro h1 {
-    font-size: 6rem;
+    font-size: 3rem;
+  }
+  .intro h1 span {
+    font-size: 5.7rem;
   }
   .intro p {
-    width: 50%;
+    width: 70%;
     font-size: 1.4rem;
     margin-top: 45px;
   }
