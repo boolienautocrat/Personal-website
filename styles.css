@@ -104,7 +104,7 @@
     font-size: 3.7rem;
   }
   .intro p {
-    line-height: 1.5;
+    line-height: 1.7;
     margin-top: 30px;
     letter-spacing: 0.06em;
     color: #111;
@@ -243,6 +243,7 @@
   }
   .intro {
     display: flex;
+    flex-direction: row;
   }
   .intro .text {
     width: 58%;
@@ -260,6 +261,7 @@
     width: 70%;
     font-size: 1.4rem;
     margin-top: 45px;
+    line-height: 1.5;
   }
   .projects h3 {
     font-size: 1rem;
