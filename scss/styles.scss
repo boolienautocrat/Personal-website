@@ -119,7 +119,7 @@
             top: 90%;
             width: 100%;
             left: 0;
-            background: linear-gradient(111.3deg, #AF85F9 9.6%, #5D1EC9 93.6%);
+            background: linear-gradient(111.3deg, #a6a0ff 10%, #554ecc 98%);
             border-radius: 5px;
         }
 
@@ -167,6 +167,7 @@
             display: flex;
             flex-direction: column;
             gap: 2rem;
+
             .benefit-card {
                 display: flex;
                 flex-direction: column;
@@ -185,10 +186,12 @@
                     display: block;
                     margin: 1rem auto 0;
                 }
+
                 p {
                     font-weight: 400;
                     line-height: 1.5;
                 }
+
                 h3 {
                     font-size: 24px;
                 }
