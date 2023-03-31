@@ -37,7 +37,7 @@
     font-size: 16px;
     font-family: "Neue Montreal";
     background-color: #f3f3f3;
-    padding: 40px 0 0;
+    padding: 10.66667% 0 0;
     font-weight: 300;
   }
   h1,
@@ -70,7 +70,7 @@
     color: #fff;
   }
   header {
-    padding: 0 20px 0;
+    padding: 0 5.3337% 0;
   }
   nav {
     align-items: center;
@@ -108,7 +108,7 @@
   }
   .intro p {
     line-height: 1.7;
-    margin-top: 30px;
+    margin-top: 9.956%;
     letter-spacing: 0.06em;
     color: #111;
   }
@@ -132,7 +132,7 @@
     top: 90%;
     width: 100%;
     left: 0;
-    background: linear-gradient(111.3deg, #a6a0ff 10%, #554ecc 98%);
+    background: linear-gradient(111.3deg, #a6a0ff 10%, #4c46b7 98%);
     border-radius: 5px;
   }
   .importance .card-wrapper {
