@@ -70,8 +70,8 @@
     }
 
     .intro {
-        margin: 0 0 30px;
-        padding: 90px 20px 0;
+        margin: 0 0 8%;
+        padding: 24% 5.34% 0;
         display: flex;
         flex-direction: column;
         row-gap: 5rem;
@@ -102,7 +102,7 @@
 
     .importance {
         background-color: #F4EEFF;
-        padding: 60px 20px 30px;
+        padding: 16% 5.34% 8%;
 
         h2 {
             font-size: 2.3rem;
@@ -153,20 +153,25 @@
                 }
             }
         }
+        hr {
+            width: 60%;
+            margin: 0 auto;
+        }
     }
 
     .benefits {
-        padding: 60px 20px 0;
+        padding: 16% 5.337% 8%;
 
         h2 {
             font-size: 2.3rem;
+
         }
 
         .card-wrapper {
             margin: 3rem auto;
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 2.4rem;
 
             .benefit-card {
                 display: flex;
@@ -200,17 +205,17 @@
     }
 
     .projects {
-        margin-top: 50rem;
-
+        padding: 0 5.34% 0;
         hr {
             color: #8c8c8c;
             border-bottom: none;
+            margin: 0 0 80px;
         }
 
         .heading-wrapper {
             display: flex;
             align-items: center;
-            margin: 8px 0;
+            margin: 2.4% 0;
         }
 
         .bullet {
@@ -230,11 +235,11 @@
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
-        margin: 40px 0 120px;
+        margin: 11.95% 0 35.83%;
     }
 
     .project-card {
-        padding: 0 0 10px 0;
+        padding: 0 0 2.99% 0;
 
         img {
             width: 100%;
@@ -247,7 +252,7 @@
 
         p {
             color: #4f4e4e;
-            letter-spacing: 1.3px;
+            letter-spacing: 0.8px;
         }
 
         a {
@@ -264,7 +269,7 @@
 
     .cta {
         text-align: center;
-        padding: 20px 0 70px;
+        padding: 5.337% 0 18.6667%;
 
         h2 {
             font-size: 2.5rem;
