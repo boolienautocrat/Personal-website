@@ -337,6 +337,7 @@
             padding: 18px 30px;
             border-radius: 30px;
         }
+
         div {
             font-size: 1.6rem;
         }
@@ -376,6 +377,7 @@
         .card-wrapper {
             gap: 4rem;
             margin-top: 5rem;
+
             hr {
                 display: none;
             }
@@ -476,7 +478,11 @@
 
 @media screen and (min-width:1024px) {
     body {
-        padding: 8% 5.6%;
+        padding: 4% 2.6%;
+    }
+
+    header {
+        padding: 0 4% 0;
     }
 
     nav button {
@@ -489,29 +495,77 @@
     .intro {
         display: flex;
         flex-direction: row;
+        padding: 8% 4% 0;
+        align-items: center;
 
         .text {
-            width: 58%;
+            width: 55%;
         }
 
         img {
             width: 42%;
+            margin: 0;
+            background-size: 700px 900px;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 3.2rem;
+            width: 65%;
         }
 
         p {
             width: 70%;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             margin-top: 45px;
             line-height: 1.5;
         }
     }
 
+    .importance {
+        padding: 8% 4%;
+        .card-wrapper {
+            .impo-card {
+                gap: 10rem;
+                padding: 7% 5% 4%;
+
+                img {
+                    width: 40%;
+                }
+
+                .text {
+                    row-gap: 3rem;
+                }
+
+                p {
+                    width: 78%;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .benefits {
+        padding: 3% 4% 8%;
+
+        .card-wrapper {
+            width: unset;
+            margin: 4rem 0 0;
+            flex-direction: row;
+
+            .benefit-card {
+                width: 33%;
+                margin: 0;
+                padding: 3% 3%;
+            }
+        }
+    }
+
+    .projects-wrapper {
+        margin: 0 0 8%;
+    }
+
     .projects h3 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .cta h2 {
