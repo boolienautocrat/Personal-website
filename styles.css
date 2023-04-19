@@ -39,6 +39,7 @@
     background-color: #f3f3f3;
     padding: 10.66667% 0 0;
     font-weight: 300;
+    color: #010012;
   }
   h1,
   h2,
@@ -78,20 +79,21 @@
     justify-content: space-between;
   }
   nav div {
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #111;
     line-height: 1.1;
   }
   nav button {
-    padding: 12px 20px;
+    padding: 9px 15px;
     border-radius: 20px;
+    font-size: 0.73rem;
   }
   .logo {
     cursor: pointer;
   }
   .intro {
     margin: 0 0 8%;
-    padding: 24% 5.34% 0;
+    padding: 24% 5.1% 0;
     display: flex;
     flex-direction: column;
     row-gap: 5rem;
@@ -103,11 +105,12 @@
     background-size: 480px 700px;
   }
   .intro h1 {
-    font-size: 2.5em;
-    letter-spacing: -0.02em;
+    width: 115%;
+    font-size: 2.9rem;
+    letter-spacing: -0.02rem;
   }
   .intro p {
-    line-height: 1.7;
+    line-height: 1.6;
     margin-top: 9.956%;
     letter-spacing: 0.06em;
     color: #111;
