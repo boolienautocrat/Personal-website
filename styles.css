@@ -299,17 +299,28 @@
   }
   footer {
     background-color: #6C64DB;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 1rem;
   }
   footer h4 {
     color: #FFF0DB;
     font-size: 1.125rem;
   }
+  footer p {
+    color: #FFF0DB;
+    font-size: 0.88rem;
+    text-align: center;
+  }
+  footer p a {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    margin: 0 0 0 0.2rem;
+  }
   .icons-wrapper {
     display: flex;
     justify-content: start;
     gap: 1em;
-    margin: 1rem 0 0;
+    margin: 1rem 0 3rem;
   }
   .link-wrapper {
     height: 3em;
