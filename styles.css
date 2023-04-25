@@ -38,6 +38,7 @@
   background-color: #FFF0DB;
   position: fixed;
   top: 0;
+  left: 0;
 }
 .progress-container div {
   height: 100%;
